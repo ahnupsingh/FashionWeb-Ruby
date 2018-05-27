@@ -1,2 +1,18 @@
-<h1>StaticPages#about</h1>
-<p>Find me in app/views/static_pages/about.html.erb</p>
+<% provide(:title, "About") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | About Us</title>
+  </head>
+  <body>
+    <h1>About Us</h1>
+    <p>
+      This site is built by Anup Kumar Singh for New Fashion Tailors Banepa,Kavre using Ruby on Rails.<br>
+      To get some help or learn more about Ruby on Rails, refer to this site.
+      <a href="http://www.railstutorial.org/help">Rails Tutorial help page</a>.<br>
+      To get help on how to build such apps, see the
+      <a href="http://www.railstutorial.org/book"><em>Ruby on Rails Tutorial</em>
+      book</a>.
+    </p>
+  </body>
+</html>
