@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Billno:</strong>
+  <%= @complete.billNo %>
+</p>
+
+<p>
+  <strong>Particular:</strong>
+  <%= @complete.particular %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @complete.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_complete_path(@complete) %> |
+<%= link_to 'Back', completes_path %>
