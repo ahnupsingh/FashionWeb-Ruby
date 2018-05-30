@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_27_063654) do
+ActiveRecord::Schema.define(version: 2018_05_30_095846) do
 
   create_table "completes", force: :cascade do |t|
     t.integer "billNo"
